@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="shopwaymasterpage.master.cs" Inherits="shopwaymasterpage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/masterpagestylesheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div id="outer">
+        <div id="header">
+            <div id="logo">
+                <img id="phlogo" src="/images/logo.png" style="height:160px;width:210px;margin-top:-60px;margin-left:30px"  />
+            </div>
+            <div id="expertsearch">
+                <asp:TextBox ID="TxtExpertsearch" runat="server" Height="31px" Width="611px" BorderStyle="Inset" BorderWidth="2px" style="margin-left: 0px" placeholder="&nbsp;&nbsp;search product" Font-Size="Large" ></asp:TextBox>
+                <asp:Button ID="BtnExpertsearch" runat="server" Text="Search" Height="38px" Width="84px" BackColor="#265b89" ForeColor="White" style="border-radius:0px 5px 5px 0px; cursor: pointer" Font-Size="Large"/>
+            </div>
+            <div id="signup">
+                <asp:Button ID="BtnSignup" runat="server" Text="Signup" CssClass="signup"     BorderStyle="Inset" BorderWidth="2px" Font-Bold="False" Font-Size="Large"   />
+            </div>
+        </div>
+       
+        <div id="menu" >
+            <div id="menuoption1"></div>
+            <div class="menuoption"><a href="#" style="text-decoration:none"><div class="menuoption_in_div">Home</div></a></div>
+           <div class="menuoption"> <a href="#" style="text-decoration:none"><div class="menuoption_in_div"> Offers</div> </a></div>
+            <div class="menuoption"> <a href="#" style="text-decoration:none"><div class="menuoption_in_div">Favourites </div></a></div>
+             <div class="menuoption"> <a href="customerzone/Customer_log_in.aspx" style="text-decoration:none"><div class="menuoption_in_div">Login </div></a></div>
+            <div class="menuoption2"></div>
+            
+        </div>
+        
+      <%--  start mainpage--%>
+
+         <div id="mainpage">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+       
+           <div id="footer">
+            <div class="foo">
+                <p>contact us<br />ManChahe</p>
+            </div>
+            <div class="foo">
+                <p>Social <br />
+                    <img src="/images/if_facebook_313103.png"  class="fph"/>
+                    <img src="/images/if_googleplus_313110.png" class="fph"/>
+                    <img src="/images/if_twitter_834708.png" class="fph" />
+
+
+               </p>
+            </div>
+            <div class="foo">
+                <p>Devloper:<br />Prashant Maurya<br /></p>
+              
+            </div>
+              
+          </div>
+    
+    </div>
+        <div id="copyright">
+            <h3>&copy; copyright by Shopway</h3>
+        </div>
+    </form>
+</body>
+</html>
