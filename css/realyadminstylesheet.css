@@ -1,0 +1,120 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#outer {
+    height: auto;
+    min-height: 500px;
+    width: 100%;
+    border: 0px solid red;
+    font-family:Comic Sans MS;
+}
+#header {
+    height: 45px;
+    width: 100%;
+    background:rgba(211, 211, 211, 0.16);
+    border:0px solid red;
+
+}
+#logo {
+    height: 45px;
+    width: 20%;
+    border: 0px solid;
+    float: left;
+    font-size:20px;
+   
+}
+#menu {
+    height: 45px;
+    width: 79%;
+    border: 0px solid;
+    float: left;
+}
+.option {
+    height: 45px;
+    width: 15%;
+    float: right;
+    text-align: center;
+    border-left:1px solid lightgrey;
+    padding-top:10px;
+    
+}
+.option1 {
+    height: 45px;
+    width: 15%;
+    float: right;
+    text-align: center;
+    border-left:1px solid lightgrey;
+    padding-top:10px;
+    
+}
+    .option:hover {
+        outline: 3px solid grey;
+    }
+   
+    #settingbox {
+    height: 130px;
+    width: 330px;
+    background: rgba(0,0,0,0.2);
+    position:relative;
+    top:9px;
+    right:163px;
+    display:none;
+    z-index:2;
+    border:3px solid #333333;
+   
+}
+    .option:hover #settingbox {
+    display: block;
+    
+}
+.option1:hover #settingbox {
+    display: block;
+    
+}
+.text {
+  color:white;
+    text-align: center;
+    
+    padding-top:7px;
+    font-size:25px;
+}
+    .text:hover {
+    background:white;
+    color:black;
+    }
+
+
+#inner {
+    height: auto;
+    min-height: 500px;
+    width: 100%;
+    background:rgba(9, 1, 1, 0.51);
+}
+#black {
+    height:602px;
+    width: 100%;
+    border:0px solid red;
+    position:absolute;
+    
+    top:45px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+#footer {
+    height: 50px;
+    width: 100%;
+    background: rgba(51, 47, 47, 0.76);
+}
+.footerpart {
+    height: 45px;
+    width: 35%;
+    border: 0px solid red;
+    float:left;
+    text-align:center;
+    padding-top:10px;
+    color:white;
+}

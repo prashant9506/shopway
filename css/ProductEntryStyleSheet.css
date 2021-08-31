@@ -1,0 +1,129 @@
+﻿* {
+    margin:0px auto;
+}
+#outer {
+    height: auto;
+    width: 100%;
+    border: 0px solid;
+    font-family:Comic Sans MS;
+}
+#header {
+    height: 100px;
+    width: 100%;
+    background:#ffffff;
+    
+}
+#logo {
+    height: 100px;
+    width: 20%;
+   
+    float: left;
+    
+}
+#title {
+    height: 85px;
+     padding-bottom:10px;
+    width: 70%;
+    float: left;
+    border:0px solid red;
+    
+}
+#logout {
+    height: 50px;
+    width: 50px;
+    margin-top:30px;
+    margin-right:40px;
+    float: right;
+    border-radius:50%;
+   padding-left:5px;
+   padding-top:5px;    
+}
+    #logout:hover {
+        
+        box-shadow: 1px 3px 5px gray;
+    }
+#menu {
+    height: 40px;
+    border:0px solid yellow;
+    width: 100%;
+   
+    background-color:lightgray;
+}
+.option {
+    height: 32px;
+    width: 15%;
+    background: lightgray;
+    float: right;
+    text-align:center;
+
+    padding-top:8px;
+    font-size:20px;
+    border:0px solid red;
+    border-left: 1px solid silver;
+}
+    .option:hover {
+        text-shadow:2px 2px 2px  blue;
+color:white;   
+
+    }
+#main {
+    height:auto;
+    min-height: 500px;
+    width: 100%;
+    background-color: tan;
+}
+#box {
+    height: 710px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+   position:absolute;
+   top:140px;
+   border-bottom:4px solid #333333;
+}
+#productform {
+    height: 700px;
+    width: 50%;
+    margin-left:35%;
+    float:left;
+    border: 0px solid red;
+}
+#ProductText {
+    height: 100px;
+    width: 32%;
+    border: 0px solid yellow;
+    float:left;
+    position:absolute;
+    text-align:center;
+   font-family:Comic Sans MS;
+   color:maroon;
+   font-size:30px;
+   text-shadow:5px 5px 5px gray;
+   top:300px;
+   
+}
+    #ProductText:hover {
+        color: gray;
+        text-shadow: 5px 5px 5px maroon;
+    }
+
+#footer {
+    height: 60px;
+    width: 100%;
+   
+}
+.afooter {
+    height: 40px;
+    width: 50%;
+    text-align:center;
+    padding-top:20px;
+    color:white;
+    background-color: #213b51;
+    float: left;
+}
+.Btn {
+    font-size: 16px;
+}
+    .Btn:hover {
+        background: lightblue;
+       
+    } 

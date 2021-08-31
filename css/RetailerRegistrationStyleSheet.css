@@ -1,0 +1,158 @@
+﻿body {
+}
+body {
+    
+        
+}
+#registration {
+    min-height: 800px;
+    width: 62%;
+    border: 1px solid lightgray;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+div p {
+    font-size: 30px;
+    text-align: center;
+    font-family: Adobe Garamond Pro Bold;
+     color: #265b89;
+}
+
+
+
+.Txtbox {
+ border-color:  #265b89;
+    color:red;
+    background:#ededed;
+    font-weight:bold;
+    margin:0px auto;
+    
+}
+
+.Txtbox:hover {
+border-color:#1994fc;
+}
+.buttonbox {
+     background-color: #265b89;
+    border-radius:5px;
+    text-align:center;
+    margin-left: 1px;
+    color:White;
+    font-family:Segoe Print;
+    margin:0px auto;
+
+    
+}
+.buttonbox:hover {
+  color:#b73351;   
+        background-color: #ededed;
+
+    }
+	.FColor {
+    color:#b73351;
+    font-family:Segoe Print;
+}
+	
+	
+	
+	
+	--------------------------------------------------------------------------axps---------------------------------------------------
+	 <div id="registration" style="border:1px solid black">
+<p>Retailer Registration ShopWay</p><hr />
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     Name<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TxtName" runat="server" width="300px"  Height="30px" Class="Txtbox"/><br /><br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Gender<br /> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <asp:RadioButton ID="RbdBtn1" runat="server" Text="Male" GroupName="gender" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <asp:RadioButton ID="RbdBtn2" runat="server" Text="FeMale" GroupName="gender" /><br /><br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Profile Photo<br /> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:FileUpload  ID="FUPicture" runat="server" /><br /><br />
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    D O B<br /> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<asp:TextBox runat="server" ID="RtlDob" width="300px"  Height="30px" Class="Txtbox"/><br /><br />
+  
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Email ID<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TxtEmail" runat="server" width="300px"  Height="30px"  Class="Txtbox"/><br /><br/>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Password<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TxtPassword" runat="server" width="300px"  Height="30px" Class="Txtbox" /><br /><br />
+
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   Mobile No<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TxtMobile" runat="server" width="300px"  Height="30px" Class="Txtbox" /><br /><br />
+
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Shop Type
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       
+           <asp:DropDownList ID="DlQualification" runat="server" CssClass="SelectBox">
+                    <asp:ListItem >--Select Shop Type--</asp:ListItem>
+                    <asp:ListItem >Small Store</asp:ListItem>
+                    <asp:ListItem >Large store</asp:ListItem>
+                    <asp:ListItem >Heavy Store</asp:ListItem>
+                    </asp:DropDownList><br /><br />
+       
+  
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Shop Name<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TxtSoname" runat="server" width="300px"  Height="30px" Class="Txtbox"   /><br /><br />
+
+
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Shop number<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TxtSoNum" runat="server" width="300px"  Height="30px" Class="Txtbox"   /><br /><br />
+
+
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Adhar Number<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TxtAdrNum" runat="server" width="300px"  Height="30px" Class="Txtbox"   /><br /><br />
+
+
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Address<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TxtAdd" runat="server" width="300px"  Height="30px" Class="Txtbox"   /><br /><br />
+
+
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Captcha Code<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label><br /><br />
+    
+
+
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:CheckBox ID="CheckBox1" runat="server" />I accept all T & C. <br /><br />
+
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<asp:Button ID="BtnReg" runat="server" Text="Registration Now" width="300px"  Height="30px"  Class="buttonbox"/><br /><br />
+
+    <hr  style="width:50%" /> <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<asp:Button ID="BtnLogin" runat="server" Text="all raedy have an account?" width="300px"  Height="30px"  Class="buttonbox"/><br /><br /> 
+      
+</div>

@@ -1,0 +1,49 @@
+﻿body {
+}
+#outer {
+    height: auto;
+    width: 50%;
+    min-height: 300px;
+    margin: 0px auto;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+
+#details {
+    height: auto;
+    width: 390px;
+    margin: 0px auto;
+    font-family: Adobe Song Std L;
+    font-weight: bold;
+}
+
+#BtnSave {
+    border-right: none;
+    border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+}
+.txt {
+    width: 300px;
+    height: 26px;
+    border-radius: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    -webkit-transition: height 2s,width 2s, border 2s, border-radius 2s,transform 2s;
+}
+
+    .txt:hover {
+        width: 400px;
+        border-bottom: 3px solid skyblue;
+        -webkit-transition: height 2s,width 2s, border 2s, border-radius 2s,transform 2s;
+    }
+#BtnSend {
+    color: white;
+    background: gray;
+   border-radius:5px 5px 0px 0px;
+}
+    #BtnSend:hover {
+        background: lightblue;
+    }
+
+    

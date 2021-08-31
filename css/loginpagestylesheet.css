@@ -1,0 +1,43 @@
+﻿body {
+   
+}
+
+#login {
+    width: 26%;
+    height: 430px;
+    border:1px solid gray;
+    margin:0px auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    background-color:#ffffff;
+     font-family: Adobe Garamond Pro Bold;
+    border-color:#dddddd;
+   font-weight:bold;
+}
+
+div p {
+    font-size:30px;
+    text-align: center;
+    font-family: Adobe Garamond Pro Bold;
+   
+    
+}
+.Txtbox {
+    border-radius: 5px;
+    
+}
+    .Txtbox:hover {
+        border-color:#1994fc;
+          
+    }
+
+.Btnbox {
+    background:#b0d3ec;
+    border-radius:5px;
+    cursor:pointer;
+}
+    .Btnbox:hover {
+        background: #1994fc;
+        color:white;
+    }

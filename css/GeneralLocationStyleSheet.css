@@ -1,0 +1,31 @@
+﻿* {
+    margin: 0px auto ;
+}
+#outer {
+
+    height:auto;
+    min-height: 500px;
+    width: 70%;
+    border: 1px solid;
+    
+    margin: 0px auto;
+  border-radius:10px;
+
+}
+#npart {
+    height: 500px;
+    width: 50%;
+   float:left;
+}
+#mpart {
+    height: 500px;
+    width: 50%;
+   float:left;
+}
+#map {
+    height: 350px;
+    width: 75%;
+    background-color: red;
+    margin-top:75px;
+}
+

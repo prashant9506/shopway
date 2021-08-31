@@ -1,0 +1,53 @@
+﻿body {
+}
+
+
+#outer {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    margin: 0px auto;
+    border: 0px solid red;
+    background:lightgray;
+    border-radius:10px;
+}
+#profileform {
+    width: 400px;
+    height: auto;
+    margin: 0px auto;
+    color: #265b89;    
+}
+#BtnSubmit {
+   
+   background-color: #265b89;
+    border-radius:10px 10px 0px 0px;
+    text-align:center;
+    margin-left: 1px;
+    color:White;
+    font-family:Segoe Print;
+
+    
+}
+#BtnSubmit:hover {
+   
+  color:#b73351;   
+        background-color: #ededed;
+}
+.txt {
+     Width:300px; 
+        Height:26px;
+        border-color:  #265b89;
+
+    background:#ededed;
+    font-weight:bold;
+    margin:0px auto;
+     font-family:Arial Rounded MT Bold ,Adobe Fangsong Std R;
+       }
+    .txt:hover {
+        border-color: #1994fc;
+    }
+    .FColor {
+    color:#b73351;
+    font-family:Segoe Print;
+}
+

@@ -1,0 +1,77 @@
+﻿body {
+    font-family:Arial Rounded MT Bold ,Adobe Fangsong Std R;
+        
+}
+#registration {
+    height:auto;
+   min-height: 650px;
+    width: 62%;
+    border: 3px solid #333333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: Adobe     Garamond Pro Bold;
+    position:absolute;
+    top:200px;left:260px;
+    background:rgba(0,0,0,0.6)
+}
+.body_container {
+height:800px;width:99.8%;border:1px solid;
+}
+div p {
+    font-size: 30px;
+    text-align: center;
+    font-family: Adobe Garamond Pro Bold;
+    color: #265b89;
+}
+
+
+
+.Txtbox {
+    width:250px;
+    height:33px;
+    border:2px solid #fff;
+    background:none;
+    border-radius:3px;
+    color:white;
+    font-family:'Century Gothic';
+    font-size:20px;
+    padding-left:3px;
+}
+
+
+.buttonbox {
+    background-color: #fff;
+    border-radius:5px;
+    text-align:center;
+    margin-left:288px;
+    color:#333333;
+    font-family:Segoe Print;
+    border:none;
+}
+.buttonbox:hover {
+  color:#b73351;   
+        background-color: #ededed;
+
+    }
+
+#footer {
+    height: 50px;
+    width: 100%;
+    margin-top:1px;
+    background: rgba(51, 47, 47, 0.76);
+}
+.footerpart {
+    height: 35px;
+    width: 30%;
+    border: 0px solid red;
+    float:left;
+    text-align:center;
+    padding-top:15px;
+    color:white;
+}
+
+.FColor {
+    color:#fff;
+    font-family:Segoe Print;
+}

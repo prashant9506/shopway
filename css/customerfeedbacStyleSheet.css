@@ -1,0 +1,30 @@
+﻿body {
+}
+
+.cfback {
+    text-align: center;
+   margin-top:10px;
+    border:none;
+    border-left: 2px#333333 solid;
+    border-right: 2px#333333 solid;
+     background:#fff;
+     font-family:'Century Gothic';
+     font-size:19px;
+     
+}
+
+.cfback:hover{
+border-bottom:2px solid #333333;
+
+}
+.cfbtn {
+       color:white;
+    font-family:Segoe Print;
+    margin-top:20px;
+    background-color: #265b89;
+       
+}
+.cfbtn:hover {
+    color:#b73351;   
+        background-color: #ededed;
+}
