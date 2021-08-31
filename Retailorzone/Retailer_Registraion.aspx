@@ -72,7 +72,7 @@
                 <a href="../genralzone/Default.aspx"><div class="menuoption">Home</div></a>
           </div>
         <div class="body_container">
-            <img src="../slider%20image/Ruddys-General-Store-1-640x427.jpg" height="800px" width="100%" />
+            <img src="../images/Ruddys-General-Store-1-640x427.jpg" height="800px" width="100%" />
             <div id="registration">
                 
                     <p style="font-family:'Century Gothic';color:#fff">Retailer Registration in ManChahe</p><hr />
