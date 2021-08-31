@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="admin_AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../css/realyadminstylesheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   <form id="form1" runat="server">
+    <div id="outer">
+       
+        <div id="header">
+           
+            <div id="logo">
+                <a href="Dashboard.aspx"><img src="../images/logo.jpeg" style="height:45px;width:100px"/></a>
+            
+            </div>
+            <div id="menu">
+                <b><span style="color:maroon;font-size:30px"> Welcome Admin Zone </span></b>
+              <a href="logout.aspx" style="color:black">  <div class="option">Logout</div></a>
+                   
+               <a href="productdelete.aspx" style="color:black"> <div class="option">Stack Mgmt</div></a>
+                 <a href="retailer_management.aspx" style="color:black"><div class="option">Retiler Mgmt</div></a>
+                <a href="user_management.aspx" style="color:black"><div class="option">Customer Mgmt</div></a>
+               <a href="../genralzone/Default.aspx" style="text-decoration:none;color:black"> <div class="option">Dashboard</div></a>
+
+            </div>
+        </div>
+         <div id="inner">
+              <img src="../slider image/spices (1).png" style="height:600px;width:100%" />
+             <div id="black">
+             
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                 </div>
+             </div>
+             
+        <div id="footer">
+            <div class="footerpart">
+                &copy; copyright ManChahe
+            </div>
+            <div class="footerpart">
+                Devloped by: ManChahe Team
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
