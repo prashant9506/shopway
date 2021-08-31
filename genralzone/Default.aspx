@@ -173,13 +173,13 @@
         <div id="slider">
            <div class="slideshow-container" style="width:100%">
 <div class="mySlides fade">
-  <img src="../slider image/sliderimg7.png" style="width:99.9%;height:445px"/>
+  <img src="../sliderimage/sliderimg7.png" style="width:99.9%;height:445px"/>
 </div>
 <div class="mySlides fade">
-  <img src="../slider image/sliderimg5.jpg" style="width:100%; height:445px"/>
+  <img src="../sliderimage/sliderimg5.jpg" style="width:100%; height:445px"/>
 </div>
 <div class="mySlides fade">
-  <img src="../slider image/sliderimg10.jpg" style="width:99.9%; height:445px"/>
+  <img src="../sliderimage/sliderimg10.jpg" style="width:99.9%; height:445px"/>
 </div>
 </div>
         </div>
