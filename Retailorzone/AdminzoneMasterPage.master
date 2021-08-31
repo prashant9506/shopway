@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminzoneMasterPage.master.cs" Inherits="Adminzone_AdminzoneMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+     
+    <link href="../css/AdminmasterStyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="outer">
+       
+        <div id="header">
+           
+            <div id="logo">
+                <img src="../images/logo.png" style="height:40px;width:100px"/>
+            
+            </div>
+            <div id="menu">
+                <b><span style="color:maroon;font-size:30px"> Welcome Retailer </span></b>
+               <div class="option1">Setting
+                   <div id="settingbox">
+                       <a href="Retailerprofile.aspx" style="text-decoration:none"><div class="text">Profile</div></a>
+                       <a href="logOut.aspx" style="text-decoration:none"><div class="text">logout</div>
+                   </div>
+               </div>
+                <a href="retailer_view_product.aspx" style="text-decoration:none;color:black"><div class="option">Products 
+                 </div>
+                </a>
+               <a href="Dashboard.aspx" style="text-decoration:none;color:black"> <div class="option">Home</div></a>
+
+            </div>
+        </div>
+         <div id="inner">
+              <img src="../images/best.jpeg" style="height:600px;width:100%" />
+             <div id="black">
+             
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                 </div>
+             </div>
+             
+        <div id="footer">
+            <div class="footerpart">
+                &copy; copyright 2021 Shopway
+            </div>
+            <div class="footerpart">
+                Devloped by:Prashant Maurya
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+    
+</html>
