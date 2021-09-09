@@ -12,3 +12,6 @@ and anyone retailor can register on shopway and increase our business. In corona
 1 Backend - c#</br>
 2 Frondend - HTML & CSS, JavaScript</br>
 3 Database - SQL
+
+<h2> Apache License 2.0</h2>
+A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
